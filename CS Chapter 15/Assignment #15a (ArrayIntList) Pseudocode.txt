@@ -1,0 +1,76 @@
+	11
+create method removeLast
+
+take in a list of integers as a parameter
+
+iterate to the last element of the list
+
+create a new int variable named last and set it's value as the last element of the list
+
+remove that last element from the list
+
+return the variable last
+
+
+	12
+create method removeFront
+
+take in a list of integers and an integer n as parameters
+
+for i from 1 to n
+    remove the first element from the list
+
+return the list
+
+
+
+	13
+create method removeAll
+
+take in a list of integers and an integer value as parameters
+
+for each element in the list
+    if the element is equal to the given value
+        remove the element from the list
+
+return the list
+
+
+	14
+create method printInversions
+
+take in a list of integers as a parameter
+
+for each element i in the list
+    for each element j in the list that comes after i
+        if the value of i is greater than the value of j
+            print the pair (i, j)
+
+return nothing
+
+
+	15
+create method mirror
+
+take in a list of integers as a parameter
+
+create a new list named mirrorList and set it's value as the reverse of the original list
+
+append mirrorList to the end of the original list
+
+return the list
+
+
+	16
+create method stutter
+
+take in a list of integers as a parameter
+
+create a new list named stutterList
+
+for each element in the list
+    add the element twice to stutterList
+
+set the value of the original list as stutterList
+
+return the list
